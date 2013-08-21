@@ -4,7 +4,7 @@ import personalsite as project_module
 
 PROJECT_ROOT = os.path.dirname(os.path.realpath(project_module.__file__))
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
