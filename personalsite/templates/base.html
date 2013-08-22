@@ -45,8 +45,8 @@
 								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Intro</span></a></li>
 								<li><a href="#work" id="work-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Work</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref" rel="external"><span class="icon icon-user">About Me</span></a></li>
-								<li><a href="#resume" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-file-text">Resume</span></a></li>
-								<li><a href="#connect" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Connect</span></a></li>
+								<li><a href="#resume" id="resume-link" class="skel-panels-ignoreHref"><span class="icon icon-file-text">Résumé</span></a></li>
+								<li><a href="#connect" id="connect-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Connect</span></a></li>
 							</ul>
 						</nav>
 						
@@ -66,10 +66,14 @@
 					<section id="top" class="one">
 						<div class="container small">
 							<header>
-								<h2 class="alt">Hi. I'm <strong>Steven</strong>.
+								<h2 class="alt">Hi. I'm <strong>Steven</strong>.</h2>
+								<p>It's nice to meet you.</p>
 							</header>
-							
-							<p>I'm a undergraduate senior computer engineer at the <a href="http://www.umass.edu/" target="_blank">University of Massachusetts</a>  on track to graduating May 2014</p>
+												<!-- Logo -->
+						
+							<span class="image avatar96"><img src="{{ STATIC_URL }}images/avatar.jpg" alt="" /></span>
+						
+							<p>I'm a undergraduate senior <strong>computer engineer</strong> at the <a href="http://www.umass.edu/" target="_blank">University of Massachusetts</a>  on track to graduating May 2014</p>
 	
 <!-- 							<footer>
 								<a href="#work" class="button scrolly">Work</a>
@@ -83,49 +87,51 @@
 						<div class="container">
 					
 							<header>
-							<h2>Work.</h2>
+							<h2>Work</h2>
    							<em>Passion runs deep.</em>
 							</header>
 
 						
 							<div class="row">
-								<div class="4u">
-									<article class="item">
-										<a href="http://ineedchemicalx.deviantart.com/art/A-million-suns-384369739" class="image full"><img src="{{ STATIC_URL }}images/DragonFire.jpg" alt="" /></a>
-										<header>
-											<h3>DragonFire</h3>
-											<sup>Motion tracking</sup>
-										</header>
-									</article>
 
-								</div>
 								<div class="4u">
-																<article class="item">
-										<a href="http://www.BasicElectronixs.com" class="image full"><img src="{{ STATIC_URL }}images/BasicE.png" alt="" /></a>
+										<article class="item">
+										<a href="http://www.BasicElectronixs.com" class="image full" target="_blank"><img src="{{ STATIC_URL }}images/BasicE.png" alt="" /></a>
 										<header>
 											<h3>BasicElectronixs</h3>
 											<sup>Everyday learning</sup>
 										</header>
 									</article>
-
 								</div>
+
 								<div class="4u">
 									<article class="item">
-										<a href="http://ineedchemicalx.deviantart.com/art/A-million-suns-384369739" class="image full"><img src="{{ STATIC_URL }}images/Emma5.jpg" alt="" /></a>
+										<a href="http://basicelectronixs.com/DragonFire" class="image full" target="_blank"><img src="{{ STATIC_URL }}images/DragonFire.jpg" alt="" /></a>
+										<header>
+											<h3>DragonFire</h3>
+											<sup>Motion tracking</sup>
+										</header>
+									</article>
+								</div>
+
+
+								<div class="4u">
+									<article class="item">
+										<a href="http://basicelectronixs.com/SpeedSensor" class="image full" target="_blank"><img src="{{ STATIC_URL }}images/Emma5.jpg" alt="" /></a>
 										<header>
 											<h3>Emma5, a Wheelchair Robot</h3>
 											<sup>Speed Sensor</sup>
 										</header>
 									</article>
-
 								</div>
+
 							</div>
 
 							<br>
 							<div>
-								<p>In addition, I have previously interned at <a href="http://www.TeraDiode.com" target="_blank"> Teradiode</a> and <a href="http://www.Lutron.com" target="_blank">Lutron Electronics</a> as a Software Engineer</p>
+								<p>I have previously interned at <a href="http://www.TeraDiode.com" target="_blank"> <strong>Teradiode</strong></a> and <a href="http://www.Lutron.com" target="_blank"><strong>Lutron Electronics</strong></a> as a Software Engineer</p>
 								<p>and<p>
-								<p>spent a summer volunteering at <a href="http://www.umassamherstm5.org/" target="_blank">M5</a></p>
+								<p>spent a summer volunteering at <a href="http://www.umassamherstm5.org/" target="_blank"><strong>M5</strong></a></p>
 
 							</div>
 						</div>
@@ -143,13 +149,18 @@
 							<br>
 							<em>-Dennis Crowley</em> 
 
-							<a href="http://ineedchemicalx.deviantart.com/art/Pasadena-357650036" class="image featured"><img src="{{ STATIC_URL }}images/pic08.jpg" alt="" /></a>
-							
-							<p>Out of the countless majors I could have choosen, I knew I wanted to become a computer engineer. There is something just so special to me the moment when software and hardware clicks.</p>
+							<p><img src="{{ STATIC_URL }}images/DSC_0064.jpg" alt="Smiley face" height="338" width="600"/></p>
+						<br>
+						<p>There is a special feeling the moment you are able to create something with a little bit of code and a little bit of hardware. There are no real words to describe this <b>euphoria</b>, but once you understand it, you can understand where I am coming from.</p>
 							<br>
-							<p>I've started my undergraduate career with a huge interested in embedded systems. More recently I have been trying to branch out to different fields to see what other opportunities I have in this industry.</p>
+							<p>The main reason I majored in computer engineering was because I wanted to know how <b>embedded system</b> worked. It was as simple as that. I have spent many hours not just in school learning about embedded systems, but have dedicated a huge chunk of my own personal time learning about embedded systems. I am in no way a master of this art, but I am in no way a novice.</p>
 							<br>
-							<p>On the side, I am a avid music listener. I have recently embarked on a journey to learning to play the guitar and learning the ins and outs of music production.</p>
+							<p>From my previous internship at TeraDiode, I had the wonderful opportunity to explore very high level thinking through <b>machine vision</b> which was very new and different for me. In addition, I worked exclusively on higher-level languages including <b>VB.NET</b> and <b>C#</b>. Working with such a high-level language for a summer at a company has given me a <b>deeper appreciation</b> for higher-level languages.</p>
+							<br>
+							<p>So more recently I have tried to reach out to <b>broader endeavors</b> not limited to embedded systems to see what else there is out there in the world for me.</p>
+							<br><br>
+							<p>On the side, I am an avid <b>music buff</b>. I have recently endeavored on to learning to play the guitar and learning the ins and outs of music production through Ableton.</p>
+
 
 						</div>
 					</section>
@@ -159,7 +170,7 @@
 						<div class="container small">
 
 							<header>
-								<h2>Resume</h2>
+								<h2>Résumé</h2>
 							</header>
 
 	
@@ -182,13 +193,14 @@
 						<h3>Check me out on...</h3>
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="https://github.com/StevenTso" class="icon icon-github-alt"><span>Twitter</span></a></li>
+							<li><a href="https://github.com/StevenTso" class="icon icon-github-alt" target="_blank"><span>Github</span></a></li>
 
-							<li><a href="http://www.linkedin.com/in/steventso" class="icon icon-linkedin"><span>Facebook</span></a></li>
+							<li><a href="http://www.linkedin.com/in/steventso" class="icon icon-linkedin" target="_blank"><span>LinkedIn</span></a></li>
 
-							<li><a href="http://stackoverflow.com/users/2411648/stevent" class="icon icon-stackexchange"><span>Github</span></a></li>
+							<li><a href="http://stackoverflow.com/users/2411648/stevent" class="icon icon-stackexchange" target="_blank"><span>Stackoverflow</span></a></li>
+
+							<li><a href="https://soundcloud.com/t-so" class="icon icon-cloud" target="_blank"><span>Soundcloud</span></a></li>
 							
-							<li><a href="https://twitter.com/Steven_T_" class="icon icon-twitter"><span>Dribbble</span></a></li>
 						</ul>
 
 						</div>
@@ -201,7 +213,7 @@
 				
 				<!-- Copyright -->
 					<div class="copyright">
-						<p>&copy; 2013 Steven Tso.</p>
+						<p>&copy; 2013 Steven Tso</p>
 						<ul class="menu">
 						</ul>
 					</div>
