@@ -5,3 +5,15 @@ nav ul li a.active span:before{color: #9EE476;}
 a:hover
 {
 color: #B7150A;}
+
+			.image.avatar96
+			{
+				width: 96px;
+				height: 96px;
+				background: #f00;
+			}
+
+	strong, b
+	{
+		font-weight: 400;
+	}
