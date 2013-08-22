@@ -9,6 +9,7 @@ from personalsite.settings import MEDIA_ROOT
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+	(r'^favicon\.ico$', 'django.views.generic.simple.redirect_to', {'url': '/static/images/favicon.ico'}),
 	url(r'^$', TemplateView.as_view(template_name='base.html'), name="home"),
 	url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
                  {'document_root': MEDIA_ROOT}),
