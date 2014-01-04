@@ -1,10 +1,11 @@
 p { margin:0 }
 
-nav ul li a.active span:before{color: #9EE476;}
+nav ul li a.active span:before{color: #000000;}
+
 
 a:hover
 {
-color: #B7150A;}
+color: #282828;}
 
 			.image.avatar96
 			{
@@ -17,3 +18,13 @@ color: #B7150A;}
 	{
 		font-weight: 400;
 	}
+
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
