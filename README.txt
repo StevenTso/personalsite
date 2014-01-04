@@ -1,1 +1,1 @@
-This contains the source code for my website StevenTso.com. Feel free to use any part of it without any restrictions.
+This contains the source code for my website. Feel free to use any part of it without any restrictions.
