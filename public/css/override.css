@@ -1,0 +1,38 @@
+p { margin:0 }
+
+nav ul li a.active span:before{color: #000000;}
+
+
+a:hover
+{
+color: #282828;}
+
+			.image.avatar96
+			{
+				width: 96px;
+				height: 96px;
+				background: #f00;
+			}
+
+	strong, b
+	{
+		font-weight: 400;
+	}
+
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.lead {
+	text-align: center;
+}
+
+.page-header {
+    border-bottom: 1px solid #8F8F8F
+}
